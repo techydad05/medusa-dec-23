@@ -40,6 +40,7 @@ const plugins = [
     resolve: `@medusajs/file-local`,
     options: {
       upload_dir: "uploads",
+      backend_url: 'http://192.168.1.42:9002'
     },
   },
   {
